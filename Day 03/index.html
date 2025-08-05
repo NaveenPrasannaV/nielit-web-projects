@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Form Web Page</title>
+    </head>
+    <body style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+        <h1>Online Registration Form</h1>
+
+        <form>
+            <table border="1" cellpadding="10" style="border-collapse: collapse;">
+                <tr>
+                    <td>
+                        <label for="firstName">First Name:</label>
+                        <input type="text" class="name" id="firstName" required autofocus placeholder="Enter your first name">
+                    </td>
+                    <td>
+                        <label for="lastname">Last Name:</label>
+                        <input type="text" class="name" id="lastname" placeholder="Enter your last name">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="primarymobilenumber">Mobile Number:</label>
+                        <input type="number" class="number" id="primarymobilenumber" required autofocus placeholder="Enter your mobile number">
+                    </td>
+                    <td>
+                        <label for="alternatemobilenumber">Alternate Mobile Number:</label>
+                        <input type="number" class="number" id="alternatemobilenumber" placeholder="Enter your alternate mobile number">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <label for="about">Description:</label>
+                        <textarea id="about" rows="3" cols="75%" placeholder="Describe you in few words"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" required placeholder="Enter your email address" autofocus required>
+                    </td>
+                    <td>
+                        <label for="additionalemail">Additional Email:</label>
+                        <input type="email" id="additionalemail" required placeholder="Enter your email address" autofocus required>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="submit" value="Submit Form">
+                        <input type="reset" value="Reset Form">
+                    </td>
+                </tr>
+            </table>
+        </form>
+
+    </body>
+</html>
