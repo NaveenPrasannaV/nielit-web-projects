@@ -14,9 +14,4 @@ Each project folder reflects a hands-on assignment or daily learning outcome.
 
 ---
 
-## 📂 Project Index
-
-- ✅ **Day 01** – Basic Web Page Structure using HTML5  
-- ✅ **Day 02** – Fruits Table with Links, Lists, and Images  
-- ✅ **Day 03** – Form Design and CSS Styling Practice
 
