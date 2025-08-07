@@ -45,6 +45,55 @@
                     </td>
                 </tr>
                 <tr>
+                    <td>
+                        <label>Gender:</label>
+                        <input type="radio" id="genderMale" name="gender">
+                        <label for="genderMale">Male</label>
+                        <input type="radio" id="genderFemale" name="gender">
+                        <label for="genderFemale">Female</label>
+                        <input type="radio" id="genderOthers" name="gender">
+                        <label for="genderOthers">Others</label>
+                    </td>
+                    <td>
+                        <label>Language:</label>
+                        <input type="checkbox" id="English">
+                        <label for="English">English</label>
+                        <input type="checkbox" id="Hindi">
+                        <label for="Hindi">Hindi(हिन्दी)</label>
+                        <input type="checkbox" id="Tamil">
+                        <label for="Tamil">Tamil(தமிழ்)</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Education:</label>
+                        <select>
+                            <option disabled selected hidden>-Choose-</option>
+                            <option>B.E/B.Tech</option>
+                            <option>B.Sc</option>
+                            <option>B.Com</option>  
+                            <option>MBA</option>    
+                            <option>MCA</option>
+                            <option>M.Sc</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="dob">Date of Birth:</label>
+                        <input type="date" id="dob" required placeholder="Select your date of birth">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="rating">Rate us:</label>
+                        <input type="range" id="rating" name="rating" min="1" max="5" required>
+                    </td>
+                    <td>
+                        <label for="interface">Interface theme:</label>
+                        <input type="color" id="interface" name="interface" value="#000000" required>
+                    </td>
+                </tr>
+
+                <tr>
                     <td colspan="2" align="center">
                         <input type="submit" value="Submit Form">
                         <input type="reset" value="Reset Form">
